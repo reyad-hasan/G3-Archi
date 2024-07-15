@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* share style start*/
+.display-flex {
+    display: flex;
+}
+
+.bg {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.title-color {
+    color: #131313;
+}
+
+.menu-color {
+    color: #424242;
+}
+
+.description-color {
+    color: #727272;
+}
+
+.btn-color {
+    color: #FFFFFF;
+}
+
+.btn-bg {
+    background-color: #FF900E;
+}
+
+.title-font {
+    font-size: 2.2rem;
+}
+
+.heading-font {
+    font-size: 3.75rem;
+}
+
+.description-title {
+    font-size: 1rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.description-padding {
+    padding: 20px 0;
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #131313;
+    color: #FFFFFF;
+}
+
+/* header style star */
+
+.header-main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* navbar style start */
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-item {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #FF900E;
+}
+
+/* banner section */
+.banner-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* .heading-and-description {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.banner-poster {
+    text-align: center;
+} */
+.banner-poster img {
+    width: 90%;
+    margin: 50px 0;
+}
